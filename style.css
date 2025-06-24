@@ -1,0 +1,55 @@
+body {
+  background-image: url('assets/images/background.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-color: rgba(255, 255, 255, 0.7);
+  background-blend-mode: soft-light;
+  background-size: 100% 100%;
+  margin: 0;
+  font-family: 'Open Sans', sans-serif;
+  /* background: #fdfdfd; */
+  color: #333;
+  line-height: 1.6;
+}
+
+.title {
+  background: url('assets/images/start.jpg') no-repeat center center/cover;
+  color: white;
+  text-align: center;
+  padding: 100px 20px;
+}
+
+.title h1 {
+  font-family: 'Great Vibes', cursive;
+  font-size: 3rem;
+}
+
+section {
+  padding: 60px 20px;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.years {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.year {
+  flex: 1 1 250px;
+  text-align: center;
+}
+
+.year img {
+  width: 100%;
+  border-radius: 12px;
+}
+
+footer {
+  text-align: center;
+  padding: 40px 20px;
+  background: #eee;
+  font-style: italic;
+}
